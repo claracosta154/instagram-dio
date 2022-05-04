@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+    font-family: "Segoe UI",'Roboto',Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
 
@@ -37,7 +37,7 @@ body {
     height: 50rem;
 }
 
-.instagram-continue {
+.continue {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
@@ -46,7 +46,7 @@ body {
     min-height: 34rem;
 }
 
-.group {
+.continue__group {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,8 @@ body {
     border: 1px solid lightgray;
 }
 
-.group:nth-child(1) {
+/* nth-group é como se o grupo tivesse filhos */
+.continue__group:nth-child(1) {
     min-height: 19rem;
 }
 
@@ -74,36 +75,37 @@ body {
     margin-top: 8px;
     height: 82px;
     width: 82px;
-    overflow:hidden;
+    overflow: hidden;
+
 
 }
 
 .profile-photo img {
-    height: 7rem;
+    height: 8rem;
     width: 100%;
 }
 
-.instagram-login {
+.continue__login {
     background-color: #0095f6;
-    color: #ffffff;
+    color:white;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout {
+.contineu__logout {
     color: #0095f6;
     margin-top: 1rem;
 }
 
-.not-account {
+.continue__not-account {
     color: rgb(160, 160, 160);
 }
 
-.link-blue {
+.continue__link {
     color: #0095f6;
 }
 
-.get-the-app {
+.app {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +114,7 @@ body {
     padding: 1.3rem 0;
 }
 
-.download {
+.app__download {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -120,17 +122,17 @@ body {
     padding: 1rem;
 }
 
-.app-download {
+.app__platform {
     height: 3rem;
     width: 10rem;
     background-size: cover;
 }
 
-.app-download:nth-child(1) {
+.app__platform:nth-child(1) {
     background-image: url('../img/apple-button.png');
 }
 
-.app-download:nth-child(2) {
+.app__platform:nth-child(2) {
     background-image: url('../img/googleplay-button.png');
 }
 
