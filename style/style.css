@@ -92,7 +92,7 @@ body {
     border-radius: 4px;
 }
 
-.contineu__logout {
+.continue__logout {
     color: #0095f6;
     margin-top: 1rem;
 }
@@ -158,11 +158,11 @@ body {
         display: none;
     }
 
-    .instagram-continue {
+    .continue {
         width: 100%;
     }
     
-    .group {
+    .continue__group {
         border: 1px solid transparent;
     }
 }
